@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('diplay_errors',1);
 /**
  * The base configurations of the WordPress.
  *

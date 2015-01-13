@@ -6,3 +6,39 @@ body {
 .current-menu-item a{
     background-color: red;
 }
+.widget{
+    margin-top: 50px;
+}
+.attachment-medium{
+    width:100%;
+    height: auto;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    background: #222;
+    padding: 8px 10px;
+    width: 175px;
+}
+li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li {
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #999;
+}
+.sub-menu li:last-child{
+    margin-bottom: 7px;
+    border-bottom: 0px;
+}
+.sub-menu a {
+    color :#777;
+    text-decoration: none;
+}
+.sub-menu a:hover {
+    color :#fff;
+    text-decoration: underline;
+}
